@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:livesell/routes.dart';
 import 'package:livesell/screens/home.dart';
 import 'package:livesell/screens/streamPublisher.dart';
-import 'package:livesell/screens/Product.dart';
+import 'package:livesell/screens/streamPlayer.dart';
 
 void main() {
   runApp(const MyApp());

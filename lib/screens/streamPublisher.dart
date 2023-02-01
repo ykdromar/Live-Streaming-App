@@ -71,7 +71,7 @@ class _StreamPublisherState extends State<StreamPublisher>
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: const Text('Live Sell'),
+        title: const Text('Stream Publisher'),
         actions: <Widget>[
           PopupMenuButton<String>(
             onSelected: (choice) => _onMenuSelected(choice, context),
