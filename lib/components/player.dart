@@ -12,11 +12,12 @@ class _PlayerState extends State<Player> {
   @override
   void initState() {
     _controller = VideoPlayerController.network(
-        "rtmp://13.230.189.83:1935/live/seller"
+        "rtmp://3.108.227.224:1935/live/camera"
 
     );
     _controller.addListener(() {
-      setState(() {});
+      setState(() {
+      });
     });
     // _controller.setLooping(true);
     _controller.initialize().then((_) => setState(() {}));

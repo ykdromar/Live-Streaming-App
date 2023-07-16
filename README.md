@@ -1,4 +1,4 @@
-# livesell
+# StreamIt
 
 A new Flutter project.
 
